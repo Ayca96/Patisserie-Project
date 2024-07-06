@@ -6,6 +6,7 @@ import MyCarousel from "./components/MyCarousel";
 import About from "./components/About";
 
 
+
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
      <MyCarousel/>
      <MyCard/>
      <About/>
+     
     </div>
   );
 }
