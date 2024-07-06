@@ -7,7 +7,7 @@ console.log(data);
 function MyCard() {
   return(
     <div>
-     {data.map(({id,name,description,price,image})=>{
+     {data.map(({id,name,description,price,image,link})=>{
     return (
     <Card key={id} style={{ width: '18rem' }}>
       <Card.Img variant="top" src={image} />
@@ -16,7 +16,8 @@ function MyCard() {
         <Card.Text>
           {description}
         </Card.Text>
-        <Button variant="primary"><a href=""></a> Tarif</Button>
+        <Button variant="primary" href={link} target='_blank'>
+        Tarif</Button>
       </Card.Body>
     </Card>
   );
