@@ -2,3 +2,63 @@
   background-color: #FFFDF4 !important;
 }
 
+body{
+  background-color: #FFFDF4 !important;
+}
+
+.cards{
+  /* border: 2px solid red; */
+ 
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  font-family: 'Sacramento';
+  
+  
+}
+.box{
+  background-color:#FFFDF4 ;
+  border: 2px dotted #C66973;
+}
+.img{
+  width: 70%;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+ 
+}
+.img:hover{
+cursor: pointer;
+transform: scale(1.1);
+
+}
+.btns{
+  background-color: #C66973;
+  border: none;
+  
+}
+.btns:hover{
+  background-color: #FFD9DD;
+}
+
+.background{
+background-color:#FFD9DD ;
+}
+
+.accordion{
+  background-color: #FFFDF4;
+  /* border: 2px solid red; */
+  height: 500px;
+  font-family:'Sacramento';
+  font-size: 15px;
+  
+}
+
+.li{
+  background-color: #FFFDF4;
+}
+
+.headers{
+background-color:  #FFFDF4;
+}

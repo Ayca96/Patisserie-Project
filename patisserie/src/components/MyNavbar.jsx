@@ -11,17 +11,17 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown" className='dropDown'>
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="#home">Startseite</Nav.Link>
+            <Nav.Link href="#link">Links</Nav.Link>
+            <NavDropdown title="Unsere Dessertsorten" id="basic-nav-dropdown" className='dropDown'>
+              <NavDropdown.Item className='background' href="#action/3.1">Milchdesserts</NavDropdown.Item>
+              <NavDropdown.Item className='background' href="#action/3.2">
+              Schokoladenkuchen
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item className='background' href="#action/3.3">Obstkuchen</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item className='background' href="#action/3.4">
+              Vegane Desserts
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
