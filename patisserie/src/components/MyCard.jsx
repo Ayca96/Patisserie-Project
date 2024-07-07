@@ -15,8 +15,8 @@ const MyCard = () => {
   //!alttaki ilk return react ın ekrana bastırılan kısmı
   return (
     
-    <Container className="container">
-      <h1 className="menu">Unser Menü</h1>
+    <Container className="container card-containers">
+      <h1 className="menu" col-md-12 >Unser Menü</h1>
       <Row className="g-5 text-center">
         {veri.map(({name,description,image,id,link,price}) => {
           return (

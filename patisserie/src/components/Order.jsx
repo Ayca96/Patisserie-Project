@@ -16,18 +16,18 @@ const Order = () => {
 
       <Form.Group as={Col} controlId="formGridPassword">
         <Form.Label>Passwort</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+        <Form.Control type="password" placeholder="Passwort" />
       </Form.Group>
     </Row>
 
     <Form.Group className="mb-3" controlId="formGridAddress1">
       <Form.Label>Adresse</Form.Label>
-      <Form.Control placeholder="1234 Main St" />
+      <Form.Control placeholder="1234 Main Str." />
     </Form.Group>
 
     <Form.Group className="mb-3" controlId="formGridAddress2">
       <Form.Label>Aderesse 2</Form.Label>
-      <Form.Control placeholder="Apartment, studio, or floor" />
+      <Form.Control placeholder="Wohnung, Studio oder Etage" />
     </Form.Group>
 
     <Row className="mb-3">
