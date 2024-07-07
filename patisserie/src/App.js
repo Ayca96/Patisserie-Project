@@ -21,7 +21,6 @@ function App() {
      <Order/>
      <Footer/>
      
-     
     </div>
   );
 }
