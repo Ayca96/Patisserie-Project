@@ -3,14 +3,14 @@ import Accordion from 'react-bootstrap/Accordion';
 const About = () => {
   return (
     <div className='accordion'>
-    <Accordion defaultActiveKey="0" flush>
-      <Accordion.Item eventKey="0">
+    <Accordion defaultActiveKey="0" flush className='accor'>
+      <Accordion.Item eventKey="0" className='acc-body'>
         <Accordion.Header className='headers'>Über uns</Accordion.Header>
         <Accordion.Body>
         Unsere Kuchen werden mit Liebe gemacht. Jeder Bissen ist ein Gedicht aus Geschmack und Freude. Bei jeder Zubereitung steckt unser ganzes Herzblut drin. Mit frischen Zutaten und handwerklichem Können zaubern wir einzigartige Köstlichkeiten. Jeder Kuchen ist ein Meisterwerk, das Ihre Sinne verführt und Ihnen ein Lächeln ins Gesicht zaubert. Genießen Sie jeden Moment mit unseren liebevoll kreierten Kreationen.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="1" className='acc-body'>
         <Accordion.Header className='headers'>Häufig gestellte Fragen</Accordion.Header>
         <Accordion.Body>
        <ol className='li'>

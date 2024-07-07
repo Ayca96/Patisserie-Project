@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 const Order = () => {
   return (
-   
+   <div className='div-form'>
     <Form className='form'>
     <h1 className='order'>Bestellen Sie</h1>
     <Row className="mb-3">
@@ -58,6 +58,7 @@ const Order = () => {
       Submit
     </Button>
   </Form>
+  </div>
   )
 }
 

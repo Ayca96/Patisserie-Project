@@ -17,14 +17,14 @@ const MyCard = () => {
     
     <Container className="container card-containers">
       <h1 className="menu" col-md-12 >Unser Menü</h1>
-      <Row className="g-5 text-center">
+      <Row gap={5} className="g-5 d-flex justify-content-center text-center">
         {veri.map(({name,description,image,id,link,price}) => {
           return (
-            <Col
-              className=" cards  d-flex justify-content-center col-sm-12 col-md-6 col-lg-3"
+            <Col xs={12} md={6} lg={3} 
+              className=" cards d-flex  justify-content-center"
               key={id}
             >
-              <Card className="box" style={{ width: "18rem" }}>
+              <Card className="box" style={{width: "18rem" }}>
                 <Card.Img className="img" variant="top" src={image}/>
                 <Card.Body>
                   <Card.Title>{name}</Card.Title>

@@ -11,7 +11,7 @@ const Team = () => {
       </div>
       <Container>
         <Row className="py-5 row-gap-3 justify-content-center">
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+          <Col xs={12} sm={6} md={3} lg={3} xl={2}>
             <Card className='title'>
               <Card.Img variant="top" src={require('../image/our-team-2.jpg')} alt="Aragorn" />
               <Card.Body>
@@ -23,7 +23,7 @@ const Team = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+          <Col xs={12} sm={6} md={3} lg={3} xl={2}>
             <Card className='title'>
               <Card.Img variant="top" src={require('../image/our-team-3.jpg')} alt="Arondir" />
               <Card.Body>
@@ -35,7 +35,7 @@ const Team = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+          <Col xs={12} sm={6} md={3} lg={3} xl={2}>
             <Card className='title'>
               <Card.Img variant="top" src={require('../image/our-team-5.jpg')} alt="Arondir" />
               <Card.Body>
@@ -47,7 +47,7 @@ const Team = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+          <Col xs={12} sm={6} md={3} lg={3} xl={2}>
             <Card className='title'>
               <Card.Img variant="top" src={require('../image/our-team-1.jpg')} alt="Arondir" />
               <Card.Body>

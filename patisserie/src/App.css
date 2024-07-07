@@ -3,11 +3,11 @@
 }
 
 body{
-  background-color: #FFFDF4 !important;
+  background-color: #CC6775!important;
 }
 
 .carousel{
-  /* height: 50rem!important; */
+  height: 50rem!important;
   
 }
 
@@ -15,6 +15,7 @@ body{
   height: 100% !important; 
   width: 100% !important;
   object-fit: cover !important;
+  
 }
 
 
@@ -43,14 +44,12 @@ body{
 
 .cards{
   /* border: 2px solid red; */
- 
   overflow: hidden;
   /* position: relative; */
   /* margin-bottom: 20px; */
   font-family: 'Sacramento';
-  box-shadow: 2px 2px 2px 3px #C66973;
-  margin: 10px 5px;
-border-radius: 10px;
+  /* box-shadow: 2px 2px 2px 3px #C66973; */
+  border-radius: 10px;
   
   
 }
@@ -60,7 +59,7 @@ border-radius: 10px;
 }
 
 .box{
-  background-color:#FFFDF4 ;
+  background-color:#FFD9DD ;
   /* border: 2px dotted #C66973; */
   border: none;
 }
@@ -93,30 +92,31 @@ background-color:#FFD9DD ;
 .accordion{
   background-image: url(./image/angelina-yan-2o_G7UQliOI-unsplash.jpg);
   background-size: cover;
-  background-color: #FFFDF4;
+  background-color: #FFD9DD;
+  background-position:center;
   /* border: 2px solid red; */
-  height: 450px;
+  height: 600px;
   font-family:'Sacramento';
   font-size: 15px;
   margin-top: 60px;
   
 }
-
-.li{
-  background-color: #FFFDF4;
+.accor{
+  background-color: #FFD9DD !important;
 }
+.acc-body{
+  background-color: #FFD9DD;
+}
+
+/* .li{
+  background-color: #FFFDF4;
+} */
 
 .headers{
   background-color:  #FFFDF4;
   }
 
-  .footer{
-    background-image: url(./image/ari-agustian-aqmUX7eY9pA-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #FFD9DD ;
-  }
-
+  
   .footer:hover{
     cursor: pointer;
   }
@@ -147,16 +147,25 @@ background-color:#FFD9DD ;
     color: white;
   }
 
-  .form{
+  .div-form{
     background-image: url(../src/image/ulysse-pointcheval-1WmlAiYgnoI-unsplash.jpg);
     background-size: cover;
+    background-position: center;
+    height: 70vh;
+   
+  
+  }
+
+
+  .form{
+   
     width: 600px;
     height: 600px;
     border-radius: 50px;
-    margin: auto;
-    border: 2px dotted  #C66973;
-    padding: 10px;
-    background-color:#FFD9DD ;
+    margin: 30px auto;
+   
+    padding: 30px;
+    background-color:rgba(0, 0, 0, 0.445);
     font-size: 15px;
     font-family: 'Sacramento', cursive;
     color: white;
@@ -168,8 +177,10 @@ background-color:#FFD9DD ;
   }
 
   .teams{
-    background-image: url(./image/deva-williamson-S2jw81lfrG0-unsplash.jpg);
+    /* background-image: url(./image/deva-williamson-S2jw81lfrG0-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center; */
     width: 100%;
+    background-color: #CC6775;
   }
