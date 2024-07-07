@@ -2,14 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import resim1 from '../../src/image/brooke-lark-V4MBq8kue3U-unsplash.jpg';
 import resim2 from "../../src/image/katie-rosario-QNyRp21hb5I-unsplash.jpg";
 import resim3 from "../../src/image/sebastian-coman-photography-dacM7egRw0Y-unsplash.jpg";
-import Container from 'react-bootstrap/esm/Container';
-import Row from "react-bootstrap/Row";
 
 
 function MyCarousel() {
   return (
-    <Container>
-    <Row className="g-4 text-center">
+   
     <Carousel className='carousel mb-5'>
       <Carousel.Item>
        <img src={resim3} alt="" className='images d-block w-100' carousel/>
@@ -35,8 +32,8 @@ function MyCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    </Row>
-    </Container>
+    
+    
   );
 }
 

@@ -7,29 +7,15 @@ body{
 }
 
 .carousel{
-  height: 60rem!important;
-  /* width: 00px !important; */
-
+  /* height: 50rem!important; */
+  
 }
 
 .images {
-  /* height: 100% !important; */
-  width: auto !important;
+  height: 100% !important; 
+  width: 100% !important;
   object-fit: cover !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .menu{
@@ -38,7 +24,6 @@ body{
   font-size: 30px;
   font-family:'Sacramento', cursive ;
   color: #D83232;
-
   display: inline-block;
   animation: move 2s infinite;
 }
