@@ -14,12 +14,14 @@ const MyCard = () => {
 
   //!alttaki ilk return react ın ekrana bastırılan kısmı
   return (
+    
     <Container className="container">
+      <h1 className="menu">Unser Menü</h1>
       <Row className="g-5 text-center">
         {veri.map(({name,description,image,id,link,price}) => {
           return (
             <Col
-              className=" cards d-flex justify-content-center col-sm-12 col-md-6 col-lg-3"
+              className=" cards  d-flex justify-content-center col-sm-12 col-md-6 col-lg-3"
               key={id}
             >
               <Card className="box" style={{ width: "18rem" }}>
@@ -35,6 +37,7 @@ const MyCard = () => {
         })}
       </Row>
     </Container>
+    
   );
 }
 

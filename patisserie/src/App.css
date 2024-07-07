@@ -6,19 +6,46 @@ body{
   background-color: #FFFDF4 !important;
 }
 
+.menu{
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 30px;
+  font-family:'Sacramento', cursive ;
+  color: #D83232;
+
+  display: inline-block;
+  animation: move 2s infinite;
+}
+
+@keyframes menü{
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px); /* İleri hareket mesafesi */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
 .cards{
   /* border: 2px solid red; */
  
   overflow: hidden;
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-family: 'Sacramento';
+  box-shadow: 2px 2px 2px 3px #C66973;
+  margin: 10px 5px;
   
   
 }
 .box{
   background-color:#FFFDF4 ;
-  border: 2px dotted #C66973;
+  /* border: 2px dotted #C66973; */
+  border: none;
 }
 .img{
   width: 70%;
@@ -49,9 +76,10 @@ background-color:#FFD9DD ;
 .accordion{
   background-color: #FFFDF4;
   /* border: 2px solid red; */
-  height: 500px;
+  height: 250px;
   font-family:'Sacramento';
   font-size: 15px;
+  margin-top: 60px;
   
 }
 
@@ -61,4 +89,55 @@ background-color:#FFD9DD ;
 
 .headers{
   background-color:  #FFFDF4;
+  }
+
+  .footer{
+    background-color: #C66973;
+    color: #FFD9DD ;
+  }
+
+  .footer:hover{
+    cursor: pointer;
+  }
+
+  
+
+  @keyframes move{
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* İleri hareket mesafesi */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .hak{
+    display: inline-block;
+    animation: move 2s infinite;
+  }
+  
+  .order{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Sacramento', cursive;
+  }
+
+  .form{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin: auto;
+    border: 2px dotted  #C66973;
+    padding: 10px;
+    background-color:#FFD9DD ;
+    font-size: 15px;
+    font-family: 'Sacramento', cursive;
+  }
+
+  .buton{
+    background-color: #C66973;
+    border: none;
   }
