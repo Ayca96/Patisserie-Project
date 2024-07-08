@@ -51,10 +51,10 @@ const Team = () => {
             <Card className='title'>
               <Card.Img variant="top" src={require('../image/our-team-1.jpg')} alt="Arondir" />
               <Card.Body>
-                <Card.Title>Isabella</Card.Title>
-                <Card.Subtitle className="mb-2text-muted">Konditorin</Card.Subtitle>
+                <Card.Title>Hans</Card.Title>
+                <Card.Subtitle className="mb-2text-muted">Leiter</Card.Subtitle>
                 <Card.Text>
-              Isabella, unsere talentierte Konditorin, verzaubert mit handgefertigten Köstlichkeiten und kreativen Backkreationen unsere Gäste und bereichert unser Team.
+                Hans, unser erfahrener Konditoreileiter, begeistert mit seiner meisterhaften Handwerkskunst und seiner Liebe zu delikaten Kreationen, die unsere Gäste verwöhnen.
                 </Card.Text>
               </Card.Body>
             </Card>
