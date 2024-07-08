@@ -7,7 +7,7 @@ body{
 }
 
 .carousel{
-  height: 50rem!important;
+  height: 60rem!important;
   
 }
 
@@ -24,11 +24,10 @@ body{
   text-align: center;
   font-size: 30px;
   font-family:'Sacramento', cursive ;
-  color: #D83232;
-  display: inline-block;
-  animation: move 2s infinite;
+  color: black;
+  animation:menü 2s infinite;
 }
-
+ 
 @keyframes menü{
   0% {
     transform: translateX(0);
@@ -39,7 +38,8 @@ body{
   100% {
     transform: translateX(0);
   }
-}
+} 
+
 
 
 .cards{
@@ -56,15 +56,20 @@ body{
 
 .title{
  background-color: #FFD9DD;
+ height: 550px;
+ 
 }
 
 .box{
   background-color:#FFD9DD ;
   /* border: 2px dotted #C66973; */
   border: none;
+  
 }
 .img{
+  /* border: 2px solid red; */
   width: 70%;
+  height: 300px;
   margin: auto;
   margin-top: 5px;
   border-radius: 30px;
@@ -76,9 +81,17 @@ cursor: pointer;
 transform: scale(1.1);
 
 }
+
+.container{
+  position: relative;
+}
+
 .btns{
   background-color: #C66973;
   border: none;
+  position: absolute;
+  bottom: 0.2%;  
+  left: 10%;
   
 }
 .btns:hover{

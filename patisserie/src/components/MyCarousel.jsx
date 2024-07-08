@@ -9,21 +9,21 @@ function MyCarousel() {
    
     <Carousel className='mb-5'>
       <Carousel.Item className="carousel">
-       <img src={resim3} alt="" className='images d-block w-100' carousel/>
+       <img src={resim3} alt="" className='images' carousel/>
         <Carousel.Caption>
           <h3>Herzlich Wilkommen Ayca's Patisserie</h3>
           <p>Unsere Kuchen wurden mit Liebe gemacht.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel">
-       <img src={resim2} alt="" className=' images d-block w-100' carousel/>
+       <img src={resim2} alt="" className=' images' carousel/>
         <Carousel.Caption>
           <h3>Herzlich Wilkommen Ayca's Patisserie</h3>
           <p>Unsere Kuchen wurden mit Liebe gemacht.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel">
-        <img src={resim1} alt="" className=' images d-block w-100' carousel/>
+        <img src={resim1} alt="" className=' images' carousel/>
         <Carousel.Caption>
           <h3>Herzlich Wilkommen Ayca's Patisserie</h3>
           <p>
