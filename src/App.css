@@ -95,7 +95,7 @@ transform: scale(1.1);
   
 }
 .btns:hover{
-  background-color: #FFD9DD;
+  background-color: rgb(238, 147, 238)!important;
 }
 
 .background{
@@ -187,6 +187,9 @@ background-color:#FFD9DD ;
   .buton{
     background-color: #C66973;
     border: none;
+  }
+  .buton:hover{
+    background-color: rgb(238, 147, 238);
   }
 
   .teams{
