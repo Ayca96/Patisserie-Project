@@ -21,4 +21,4 @@ Bootstrap: For responsive styling.
 
 ### Expected Outcome
 
-![Project Snapshot](./chrome-capture-2024-7-13.gif)
+![Project Snapshot](./chrome-capture-2024-7-25.gif)
